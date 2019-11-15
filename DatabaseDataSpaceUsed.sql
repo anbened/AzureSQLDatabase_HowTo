@@ -1,6 +1,6 @@
 
 /*** Connect to MASTER ***/
-/*** Database data space used ***/
+
 /* Query to determine storage space quantities and other info for a single database 
 
 - Data Space Used = The amount of space used to store database data in 8 KB pages
