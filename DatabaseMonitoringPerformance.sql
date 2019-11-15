@@ -166,3 +166,4 @@ FROM OrderedLogUsed AS OD
 WHERE OD.RN <= 15
 ORDER BY total_log_bytes_used DESC;
 GO
+
