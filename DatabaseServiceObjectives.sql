@@ -5,7 +5,9 @@ Returns info like edition (service tier), pricing tier and elastic pool name, if
 for an Azure SQL database or an Azure SQL Data Warehouse
 */
 
-SELECT d.name AS [DB Name], 
+SELECT 
+	@@SERVERNAME as [ServerName],
+	d.name AS [DB Name], 
        so.edition AS [Service Tier], 
        so.service_objective AS [Pricing Tier], 
        d.create_date AS [DB Create Date], 
