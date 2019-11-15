@@ -1,6 +1,6 @@
 
-/*** Connect to DATABASE USER ***/
-/*** Database data space used ***/
+/*** Connect to DATABASE USER --> single database ***/
+
 /* Query to determine storage space quantities and other info for a single database 
 
 - Data Space Used = The amount of space used to store database data in 8 KB pages
